@@ -1,0 +1,39 @@
+{
+  "gfs_base_url": "https://gfs.navotas.svi.cloud/gfs-explorer-ws/svc/gfs-rest/",
+  "auth_token_url": "https://auth.svi.cloud/auth/realms/GFS-NAVOTAS/protocol/openid-connect/token",
+  "client_id": "gfs-explorer",
+  "username": "navotas",
+  "password": "GFS@Navotas",
+  "authorization_prefix": "",
+  "root_paths": [
+    "/SP"
+  ],
+  "output_directory": "output",
+  "log_directory": "logs",
+  "output_name": "SP",
+  "fields": {
+    "path": [
+      "path"
+    ],
+    "name": [
+      "name"
+    ],
+    "remarks": [
+      "remarks"
+    ],
+    "description": [
+      "description"
+    ],
+    "elementid": [
+      "extraData",
+      "elementid"
+    ]
+  },
+  "required_fields": [
+    "path",
+    "name",
+    "elementid"
+  ],
+  "timeout_seconds": 60,
+  "max_attempts": 3
+}
